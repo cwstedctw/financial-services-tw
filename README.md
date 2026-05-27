@@ -7,21 +7,31 @@
 
 ---
 
-## 安裝（只要裝「一個」外掛，兩行）
+## 安裝（只要裝「一個」外掛 `taiwan-finance`）
 
-在 Claude Code 的對話框輸入：
-```
-/plugin marketplace add cwstedctw/financial-services-tw
-/plugin install taiwan-finance@financial-services-tw
-```
-就這樣。所有功能（產業研究、財報法說、個股研究、估值、DCF/LBO 模型、投資簡報）與台灣風格規則都包在這一個外掛裡。
+### 方法 A：桌面版 / Cowork（用滑鼠，推薦給老師）
 
-> 桌面版 / Cowork：**Settings → Plugins → Add marketplace**，貼上
-> `https://github.com/cwstedctw/financial-services-tw`，再安裝 **taiwan-finance** 這一個外掛。
+1. 左側 **Personal plugins** 右邊按 **`+`** → **Create plugin** → **Add marketplace**。
+2. 在欄位貼上市集網址：
+   ```
+   https://github.com/cwstedctw/financial-services-tw
+   ```
+   （若欄位要的是 `owner/repo` 格式，就貼 `cwstedctw/financial-services-tw`）
+3. 加好後 → **Browse plugins** → 找到 **taiwan-finance** → 安裝 / 啟用。
+4. 若詢問是否啟用資料源 **`twstock`**（免費台灣證交所資料）→ 選**允許**。
+
+所有功能（產業研究、財報法說、個股研究、估值、DCF/LBO 模型、投資簡報）與台灣風格規則都包在這一個外掛裡。
+
+### 方法 B：命令列（Claude Code CLI）
+
+在終端機輸入：
+```
+claude plugin marketplace add cwstedctw/financial-services-tw
+claude plugin install taiwan-finance@financial-services-tw
+```
+> 在 Claude Code 終端機的對話框內，也可用 `/plugin marketplace add …` 與 `/plugin install …`（視版本而定；部分桌面版選單沒有 `/plugin`，請改用方法 A）。
 >
-> 安裝時若詢問是否啟用資料源 `twstock`（免費台灣證交所資料）→ 選**允許**。
->
-> 更新：`/plugin marketplace update financial-services-tw`
+> 更新：`claude plugin update taiwan-finance`，或 GUI 內 Browse plugins 更新。
 
 完整圖文步驟與課堂用法見 **[老師操作手冊.md](老師操作手冊.md)**，常用代號見 **[台股代號小抄.md](台股代號小抄.md)**。
 
