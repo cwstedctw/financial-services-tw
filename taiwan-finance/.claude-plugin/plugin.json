@@ -1,8 +1,6 @@
 {
   "name": "taiwan-finance",
-  "version": "0.2.0",
-  "description": "台灣版財經教學外掛（全合一）：產業研究、財報法說、個股研究、估值、DCF/LBO 模型、投資簡報。全程繁體中文、台股代號、T-IFRS、民國年、新台幣；資料來自免費 TWSE。提到台股代號（如 2330）自動套用台灣風格。",
-  "author": {
-    "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）"
-  }
+  "version": "0.3.0",
+  "description": "台灣版財經教學外掛（全合一）：產業研究、財報法說、個股研究、估值、DCF/LBO 模型、投資簡報，並內建 humanizer-zh-tw 中文潤飾與台灣用詞規範。全程繁體中文、台股代號、T-IFRS、民國年、新台幣；資料來自免費 TWSE。提到台股代號（如 2330）自動套用台灣風格。",
+  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
 }

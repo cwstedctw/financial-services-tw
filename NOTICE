@@ -14,3 +14,11 @@ financial-services-tw
 授權：Apache License 2.0（與上游一致，見 LICENSE）
 
 免責：本外掛僅供學術討論與教學示範，不構成任何投資、法律、稅務或會計建議。
+
+────────────────────────────────────────
+內含第三方技能（Bundled third-party skill）：
+  humanizer-zh-tw
+  來源：kevintsai1202/Humanizer-zh-TW  https://github.com/kevintsai1202/Humanizer-zh-TW
+  授權：MIT License（見 taiwan-finance/skills/humanizer-zh-tw/LICENSE）
+  用途：去除中文輸出的 AI 痕跡、潤飾為自然繁體中文。
+  原始出處鏈：op7418/humanizer-zh ← blader/humanizer ← hardikpandya/stop-slop
