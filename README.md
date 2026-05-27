@@ -50,6 +50,8 @@ claude plugin install taiwan-finance@financial-services-tw
 | 估值與模型（DCF、三表、LBO、競爭分析） | `/dcf`、`/3-statement-model`、`/lbo`、`/debug-model` | 進階（需 Excel） |
 | 投資簡報 | `/ppt-template`、`pitch-agent` 代理 | 進階（需 PowerPoint） |
 
+> ⚠️ **指令有命名空間**：實際要打 **`/taiwan-finance:comps`**（不是 `/comps`，後者會顯示 `Unknown command`）。最省事的方式是**直接用中文問**（見下方「試用」），或只打 `/` 從選單點 `taiwan-finance:…`。
+
 內含 **27 個技能、5 個代理（agent）、16 個指令**，全部繁體中文、台股在地化。
 
 ## 資料來源
