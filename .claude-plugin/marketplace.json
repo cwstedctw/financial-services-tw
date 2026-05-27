@@ -3,10 +3,12 @@
   "owner": {
     "name": "NDHU 教學在地化（改作自 anthropics/financial-services，Apache-2.0）"
   },
+  "metadata": {
+    "description": "台灣版財經教學外掛市集：把 Anthropic financial-services 在地化成繁中台股版，供經濟／通識／財金老師上課用。"
+  },
   "plugins": [
     {
       "name": "taiwan-finance",
-      "displayName": "台灣版財經教學外掛（全合一）",
       "source": "./taiwan-finance",
       "description": "產業研究、財報法說、個股研究、估值、DCF/LBO、投資簡報，全程繁中台股。裝這一個就好。"
     }
