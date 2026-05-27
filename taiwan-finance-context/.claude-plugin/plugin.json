@@ -1,6 +1,0 @@
-{
-  "name": "taiwan-finance-context",
-  "version": "0.1.0",
-  "description": "強制繁體中文、台股術語、T-IFRS、民國年、新台幣（萬／億／兆）的回答風格；提到台股代號（如 2330）或 MOPS 時自動啟用",
-  "author": { "name": "NDHU 教學在地化" }
-}

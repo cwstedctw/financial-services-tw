@@ -5,52 +5,10 @@
   },
   "plugins": [
     {
-      "name": "taiwan-finance-context",
-      "displayName": "台灣財經回答風格（必裝）",
-      "source": "./taiwan-finance-context",
-      "description": "強制繁體中文、台股術語、T-IFRS、民國年、新台幣萬／億／兆；提到台股代號時自動套用。建議第一個安裝。"
-    },
-    {
-      "name": "market-researcher-tw",
-      "displayName": "台股產業研究員",
-      "source": "./market-researcher-tw",
-      "description": "產業概覽、競爭格局、同業比較、選股清單。最適合經濟／通識課堂示範。"
-    },
-    {
-      "name": "earnings-reviewer-tw",
-      "displayName": "台股財報法說分析",
-      "source": "./earnings-reviewer-tw",
-      "description": "財報與法說會 → 模型更新 → 研究筆記。每季都有新素材。"
-    },
-    {
-      "name": "equity-research-tw",
-      "displayName": "台股個股研究",
-      "source": "./equity-research-tw",
-      "description": "個股研究指令：選股、產業、投資論點、財報分析、首次評等。"
-    },
-    {
-      "name": "financial-analysis-tw",
-      "displayName": "台股財務分析核心",
-      "source": "./financial-analysis-tw",
-      "description": "DCF、同業比較、LBO、三表模型、競爭分析。估值教學核心。"
-    },
-    {
-      "name": "model-builder-tw",
-      "displayName": "台股財務模型（進階・需 Excel）",
-      "source": "./model-builder-tw",
-      "description": "在 Excel 產生 DCF／LBO／三表／同業比較模型。"
-    },
-    {
-      "name": "pitch-agent-tw",
-      "displayName": "台股投資簡報（進階・需 PowerPoint）",
-      "source": "./pitch-agent-tw",
-      "description": "同業比較、前例交易、LBO → 一份投資簡報。"
-    },
-    {
-      "name": "valuation-reviewer-tw",
-      "displayName": "台股估值與投資備忘錄（進階）",
-      "source": "./valuation-reviewer-tw",
-      "description": "估值範本、報酬分析、投資組合監控、投資備忘錄。"
+      "name": "taiwan-finance",
+      "displayName": "台灣版財經教學外掛（全合一）",
+      "source": "./taiwan-finance",
+      "description": "產業研究、財報法說、個股研究、估值、DCF/LBO、投資簡報，全程繁中台股。裝這一個就好。"
     }
   ]
 }

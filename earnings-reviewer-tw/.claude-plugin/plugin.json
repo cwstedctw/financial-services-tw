@@ -1,6 +1,0 @@
-{
-  "name": "earnings-reviewer-tw",
-  "version": "0.1.1",
-  "description": "台股財報與法說分析：財報／法說會 → 模型更新 → 研究筆記（繁體中文、台股、T-IFRS）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

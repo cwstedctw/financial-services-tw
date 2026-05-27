@@ -1,6 +1,0 @@
-{
-  "name": "financial-analysis-tw",
-  "version": "0.1.1",
-  "description": "台股財務分析核心：DCF、同業比較、LBO、三表模型、競爭分析（繁體中文、台股、T-IFRS）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

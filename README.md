@@ -7,47 +7,40 @@
 
 ---
 
-## 快速安裝（Claude Code，一行搞定）
+## 安裝（只要裝「一個」外掛，兩行）
 
+在 Claude Code 的對話框輸入：
 ```
 /plugin marketplace add cwstedctw/financial-services-tw
-/plugin install taiwan-finance-context@financial-services-tw
-/plugin install market-researcher-tw@financial-services-tw
-/plugin install earnings-reviewer-tw@financial-services-tw
-/plugin install equity-research-tw@financial-services-tw
-/plugin install financial-analysis-tw@financial-services-tw
+/plugin install taiwan-finance@financial-services-tw
 ```
+就這樣。所有功能（產業研究、財報法說、個股研究、估值、DCF/LBO 模型、投資簡報）與台灣風格規則都包在這一個外掛裡。
 
-桌面版 / Cowork：**Settings → Plugins → Add marketplace**，貼上
-`https://github.com/cwstedctw/financial-services-tw`，再安裝各外掛。
-
-> **務必先裝 `taiwan-finance-context`**，它是讓所有回答變台灣風格的規則層。
-
-進階模型外掛（需 Excel／PowerPoint，行有餘力再裝）：
-```
-/plugin install model-builder-tw@financial-services-tw
-/plugin install pitch-agent-tw@financial-services-tw
-/plugin install valuation-reviewer-tw@financial-services-tw
-```
-
-更新到最新版：`/plugin marketplace update financial-services-tw`
+> 桌面版 / Cowork：**Settings → Plugins → Add marketplace**，貼上
+> `https://github.com/cwstedctw/financial-services-tw`，再安裝 **taiwan-finance** 這一個外掛。
+>
+> 安裝時若詢問是否啟用資料源 `twstock`（免費台灣證交所資料）→ 選**允許**。
+>
+> 更新：`/plugin marketplace update financial-services-tw`
 
 完整圖文步驟與課堂用法見 **[老師操作手冊.md](老師操作手冊.md)**，常用代號見 **[台股代號小抄.md](台股代號小抄.md)**。
 
 ---
 
-## 包含的外掛
+## 這個外掛包含什麼
 
-| 外掛 | 用途 | 等級 |
+裝一個 `taiwan-finance`，就同時擁有：
+
+| 能力 | 對應指令 / 用法 | 等級 |
 |------|------|------|
-| `taiwan-finance-context` | 繁中／台股／T-IFRS／民國年／新台幣 回答風格（**必裝**） | 核心 |
-| `market-researcher-tw` | 產業概覽、競爭格局、同業比較、選股清單 | 核心★ |
-| `earnings-reviewer-tw` | 財報／法說會分析 → 模型更新 → 研究筆記 | 核心 |
-| `equity-research-tw` | 個股研究指令：選股、產業、論點、財報分析 | 核心 |
-| `financial-analysis-tw` | DCF、同業比較、LBO、三表模型、競爭分析 | 核心 |
-| `model-builder-tw` | Excel 三表／DCF／LBO 模型 | 進階 |
-| `pitch-agent-tw` | 投資簡報（pitch deck） | 進階 |
-| `valuation-reviewer-tw` | 估值範本、報酬分析、投資備忘錄 | 進階 |
+| 台灣風格規則層（繁中／台股／T-IFRS／民國年／新台幣） | 自動套用（提到台股代號時啟用） | 核心 |
+| 產業研究（產業概覽、競爭格局、同業比較、選股） | `/sector`、`/competitive-analysis`、`/comps`、`/screen` | 核心 |
+| 財報／法說分析 | `/earnings`、`/earnings-preview`、`market-researcher` 等代理 | 核心 |
+| 個股研究（論點、首次評等、晨報、催化事件） | `/thesis`、`/initiate`、`/morning-note`、`/catalysts` | 核心 |
+| 估值與模型（DCF、三表、LBO、競爭分析） | `/dcf`、`/3-statement-model`、`/lbo`、`/debug-model` | 進階（需 Excel） |
+| 投資簡報 | `/ppt-template`、`pitch-agent` 代理 | 進階（需 PowerPoint） |
+
+內含 **27 個技能、5 個代理（agent）、16 個指令**，全部繁體中文、台股在地化。
 
 ## 資料來源
 

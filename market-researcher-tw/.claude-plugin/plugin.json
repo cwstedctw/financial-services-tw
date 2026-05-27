@@ -1,6 +1,0 @@
-{
-  "name": "market-researcher-tw",
-  "version": "0.1.1",
-  "description": "台股產業研究：產業概覽、競爭格局、同業比較、選股清單（繁體中文、台股代號、T-IFRS、新台幣）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

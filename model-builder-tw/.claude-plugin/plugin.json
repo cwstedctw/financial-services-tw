@@ -1,6 +1,0 @@
-{
-  "name": "model-builder-tw",
-  "version": "0.1.0",
-  "description": "台股財務模型：DCF、LBO、三表、同業比較，於 Excel 產出（繁體中文、台股）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

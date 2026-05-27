@@ -1,6 +1,0 @@
-{
-  "name": "valuation-reviewer-tw",
-  "version": "0.1.1",
-  "description": "台股估值與投資備忘錄：估值範本、報酬分析、投資組合監控（繁體中文、台股）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

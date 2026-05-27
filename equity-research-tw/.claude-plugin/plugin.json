@@ -1,6 +1,0 @@
-{
-  "name": "equity-research-tw",
-  "version": "0.1.2",
-  "description": "台股個股研究：財報分析、首次評等報告、研究工作流（繁體中文、台股、T-IFRS）",
-  "author": { "name": "NDHU 教學在地化（改作自 Anthropic FSI，Apache-2.0）" }
-}

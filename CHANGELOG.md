@@ -2,6 +2,14 @@
 
 本專案版本格式採語意化版本（SemVer）。
 
+## [0.2.0] - 2026-05-27
+
+### 變更
+- **合併成單一外掛**：原本 8 個外掛整併為一個 `taiwan-finance`，安裝只需一行 `/plugin install taiwan-finance@financial-services-tw`。
+- 重複技能去重（55 → 27 個技能），保留全部 5 個代理與 16 個指令。
+- `marketplace.json` 改為只列一個外掛；README 與老師操作手冊安裝步驟同步更新。
+- 功能內容與在地化不變，資料源仍為免費 TWSE MCP（`twstock`）。
+
 ## [0.1.0] - 2026-05-27
 
 第一版：把 Anthropic 官方 [`anthropics/financial-services`](https://github.com/anthropics/financial-services) 在地化成台灣台股教學版。
