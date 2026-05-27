@@ -22,7 +22,15 @@
 `https://github.com/cwstedctw/financial-services-tw`，再安裝各外掛。
 
 > **務必先裝 `taiwan-finance-context`**，它是讓所有回答變台灣風格的規則層。
-> 進階再裝：`model-builder-tw`、`pitch-agent-tw`、`valuation-reviewer-tw`（需 Excel／PowerPoint）。
+
+進階模型外掛（需 Excel／PowerPoint，行有餘力再裝）：
+```
+/plugin install model-builder-tw@financial-services-tw
+/plugin install pitch-agent-tw@financial-services-tw
+/plugin install valuation-reviewer-tw@financial-services-tw
+```
+
+更新到最新版：`/plugin marketplace update financial-services-tw`
 
 完整圖文步驟與課堂用法見 **[老師操作手冊.md](老師操作手冊.md)**，常用代號見 **[台股代號小抄.md](台股代號小抄.md)**。
 
