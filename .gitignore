@@ -1,0 +1,8 @@
+# 不要上傳的東西
+.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "twstock": {
+      "type": "http",
+      "url": "https://TW-Stock-MCP-Server.fastmcp.app/mcp"
+    }
+  }
+}

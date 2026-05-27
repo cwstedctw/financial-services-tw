@@ -1,0 +1,16 @@
+financial-services-tw
+台灣版財經教學外掛（繁體中文在地化）
+
+本作品改作（derivative work）自：
+  anthropics/financial-services
+  https://github.com/anthropics/financial-services
+  Copyright Anthropic, PBC. — Licensed under the Apache License, Version 2.0.
+
+在地化修改內容：將外掛之 agents / skills / commands 翻譯為繁體中文，
+改用台灣資本市場術語（T-IFRS、民國年、台股代號、新台幣萬/億/兆、公開資訊觀測站 MOPS），
+並將資料連接器由付費美股來源改為免費之台灣證交所開放資料（TWSE MCP, twjackysu/TWSEMCPServer）。
+
+在地化作者：NDHU 教學用途（cwstedctw）
+授權：Apache License 2.0（與上游一致，見 LICENSE）
+
+免責：本外掛僅供學術討論與教學示範，不構成任何投資、法律、稅務或會計建議。
